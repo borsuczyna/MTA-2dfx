@@ -4,6 +4,7 @@ It shouldn't be used for public server due to high CPU usage, use it only for pe
 
 # Authors
 borsuk 
+
 Special thanks for help to Nurupo and 2dfx authors
 
 # Showcase
