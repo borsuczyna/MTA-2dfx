@@ -1,0 +1,9 @@
+<meta>
+    <script src="data/2dfx.lua" type="client" cache="false"/>
+    <script src="data/corona.lua" type="client" cache="false"/>
+    <script src="client.lua" type="client" cache="false"/>
+
+    <file src="data/objects.json"/>
+    <file src="data/shader.fx"/>
+    <file src="data/corona.png"/>
+</meta>
