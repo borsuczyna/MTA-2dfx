@@ -5,7 +5,7 @@ It shouldn't be used for public server due to high CPU usage, use it only for pe
 # Authors
 borsuk 
 
-Special thanks for help to Nurupo and 2dfx authors
+Special thanks for help to Nurupo, 2dfx authors and thisdp for big optimization help
 
 # Showcase
 ![1](https://user-images.githubusercontent.com/65825775/163194935-fb7f612b-fe03-40c2-a93b-257dea64f1eb.png)
