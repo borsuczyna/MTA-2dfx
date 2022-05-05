@@ -19,12 +19,12 @@ for d,c in pairs(data2dfx) do
 			for i=1,#c do
 				local corona = c[i]
                 local x, y, z = getPositionFromElementOffset(v, corona[5], corona[6], corona[7])
-                createCorona(x, y, z, corona[8]*3, tocolor(corona[1], corona[2], corona[3],0), corona[9])
+                createCorona(x, y, z, corona[8]*3, {corona[1], corona[2], corona[3]}, corona[9])
             end
         end
     end
 end
-
+--[[
 addEventHandler("onClientPreRender", root, function()
 	local vehicles = getElementsByType("vehicle")
 	for i=1,#vehicles do
@@ -35,8 +35,8 @@ addEventHandler("onClientPreRender", root, function()
 			for i=1,#data2dfx[model] do
 				local corona = data2dfx[model][i]
                 local x, y, z = getPositionFromElementOffset(matrix, corona[5], corona[6], corona[7])
-                drawCorona(x, y, z, corona[8]*2, tocolor(corona[1],corona[2],corona[3],0), 2)--c[9])
+                drawCorona(x, y, z, corona[8]*2, {corona[1],corona[2],corona[3]}, 2)--c[9])
             end
         end
 	end
-end)
+end)]]
