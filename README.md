@@ -1,6 +1,5 @@
 # MTA-2dfx
 This project converts 2dfx to Multi Theft Auto
-It shouldn't be used for public server due to high CPU usage, use it only for personal use, or optimize it.
 
 # Authors
 borsuk, Nurupo, thisdp
